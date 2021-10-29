@@ -1,0 +1,72 @@
+*{
+margin:0px;
+padding:0px;
+}
+@media screen and (min-width: 1000px){
+    .carousel-item {height: 100vh !important;}
+}
+
+.carousel-item{
+    height:50vh;
+    background:#777;
+    color:white;
+}
+.container{
+    position:absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    padding-bottom:50px;
+}
+.p1{ display: block !important;}
+
+
+.item1{height: 40vh;}
+.item2{height :45vh;}
+.item3{ height: 49vh;}
+.item4{height:34vh;}
+
+.factss{
+    height: 25rem !important;
+display: block;
+position: relative;
+width: 100% !important;
+background-color: whitesmoke;
+}
+.factstext{
+    margin-top: 2rem !important;
+}
+.nwdiv{
+    height: 50rem !important;
+    display: block;
+    position: relative;
+    width: 100% !important;
+    background-color: rgb(255, 255, 255);   
+}
+.hover1:hover{
+    background-color: tomato !important;
+}
+.newsletter{
+    border-style: solid !important;
+border-width: 0.1rem !important;
+border-color: rgb(185, 185, 185); 
+}
+.signupbutton{
+    border-radius: none !important;
+}
+.signupbutton:hover{
+    background-color: tomato !important;
+}
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+  }
+  .h20{
+      height:3rem;
+  }
