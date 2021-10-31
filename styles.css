@@ -27,7 +27,6 @@ padding:0px;
 .item4{height:35vh;}
 
 .factss{
-    height: 25rem !important;
 display: block;
 position: relative;
 width: 100% !important;
@@ -69,4 +68,9 @@ border-color: rgb(185, 185, 185);
   }
   .h20{
       height:3rem;
+  }
+  .navbarr{
+      position: fixed !important;
+      z-index: 5 !important;
+      width: 100%;
   }
