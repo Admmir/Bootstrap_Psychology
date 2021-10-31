@@ -71,6 +71,12 @@ border-color: rgb(185, 185, 185);
   }
   .navbarr{
       position: fixed !important;
-      z-index: 5 !important;
+      z-index: 2 !important;
       width: 100%;
+  }
+  .margina{
+      margin-top: 3rem;
+  }
+  .margina2{
+      margin-top: 2rem;
   }
